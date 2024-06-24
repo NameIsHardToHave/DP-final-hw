@@ -1,0 +1,13 @@
+device: cuda
+data:
+  batch_size: 512
+logger:
+  name: GRU4Rec_1.log
+model:
+  name: GRU4Rec_1.pth
+  state_size: 128
+  base_name: GRU4Rec
+train:
+  patience: 5
+draw:
+  name: GRU4Rec_1.png

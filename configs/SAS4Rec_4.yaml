@@ -1,0 +1,23 @@
+device: cuda
+data:
+  batch_size: 128
+logger:
+  name: SNpair_2.log
+model:
+  name: SNpair_2.pth
+  state_size: 200
+  base_name: SAS4Rec
+  merge_name: SN
+  base:
+    SAS4Rec:
+      num_heads: 8
+      num_layers: 2
+      dim_feedforward: 200
+      dropout: 0.0
+      activation: gelu
+train:
+  patience: 5
+rl:
+  neg_num: 10
+draw:
+  name: SNpair_2.png

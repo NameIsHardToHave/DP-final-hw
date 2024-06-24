@@ -1,0 +1,23 @@
+device: cuda
+data:
+  batch_size: 128
+logger:
+  name: drop_1.log
+model:
+  name: drop_1.pth
+  state_size: 200
+  base_name: SAS4Rec
+  merge_name: SNPair
+  base:
+    SAS4Rec:
+      num_heads: 8
+      num_layers: 4
+      dropout: 0.1
+  pair:
+    pos_weight: 1.0
+    l2_emb: 0.0
+    loss: cro
+train:
+  patience: 5
+draw:
+  name: drop_1.png

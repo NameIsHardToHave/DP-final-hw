@@ -1,0 +1,2 @@
+from .SN_train import full_training as SN_training, full_testing as SN_testing, full_predicting as SN_predicting
+from .SNPair_train import full_training as SNPair_training, full_testing as SNPair_testing, full_predicting as SNPair_predicting

@@ -1,0 +1,13 @@
+device: cuda
+data:
+  batch_size: 512
+logger:
+  name: NextItNet_1.log
+model:
+  name: NextItNet_1.pth
+  state_size: 128
+  base_name: NextItNet
+train:
+  patience: 5
+draw:
+  name: NextItNet_1.png
