@@ -21,3 +21,6 @@
 ### 我们的结果：
 截至2024年6月20日。我们在CCF图书推荐系统比赛中取得了排行榜第3名的好成绩。使用的超参数配置为 DROP_1.yaml，结果文件为 drop_submission_1.csv。
 ![排行榜展示](result.png)
+
+### 备注：
+data/train.pt 文件由于过大而仅上传了压缩文件，请自行解压 data/train.zip 得到 train.pt。
