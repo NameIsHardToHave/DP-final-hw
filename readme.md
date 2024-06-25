@@ -24,4 +24,12 @@
 
 ## 备注
 - data/train.pt 文件由于过大而仅上传了压缩文件，请自行解压 data/train.zip 得到 train.pt。
-- 2024年春季学期参与同场比赛的队伍请慎重照搬我们的代码。
+- 最新的更改中删除了结果文件，仅保留 data/SAS_submission_2.csv，这不是最优的结果。
+- 2024年春季学期参与同场比赛的队伍请慎重照搬我们的代码，可以使用如下引用：
+
+@Misc{CCFbookrec,
+  title =        {CCFbookrec},
+  author =       {a team from USTC},
+  howpublished = {\url{https://github.com/NameIsHardToHave/DP-final-hw}},
+  year =         {2024}
+}
