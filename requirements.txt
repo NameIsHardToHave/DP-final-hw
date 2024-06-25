@@ -1,0 +1,10 @@
+# Python version
+python==3.10.*
+
+# Packages
+torch==2.1.0
+torchmetrics
+matplotlib
+numpy
+tqdm
+yacs
