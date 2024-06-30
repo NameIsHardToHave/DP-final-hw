@@ -42,8 +42,8 @@
 ## 备注
 - 数据由 DataFountain 比赛官方直接提供，最早的来源可追溯到公开数据集Goodbooks-10k。
 - 预处理后的训练集数据 data/train.pt 文件由于过大而仅上传了压缩文件，请自行解压 data/train.zip 得到 train.pt。
-- 最新的更改中删除了大量提交结果文件，仅保留 data/SAS_submission_2.csv，这不是最优的结果。
-- 2024年春季学期参与同场比赛的队伍请慎重照搬我们的代码，可以使用如下引用：
+- 仓库中的提交结果文件被删除，仅保留 data/SAS_submission_2.csv，这不是最优的结果。
+- 如需引用我们的代码，可以使用：
 
 ```bibtex
 @Misc{CCFbookrec,
